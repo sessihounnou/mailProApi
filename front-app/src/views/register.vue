@@ -4,6 +4,9 @@ export default {
 };
 </script>
 <style>
+  .aligns {
+    text-align: center;
+  }
   .colors {
     background-color: #023c5b;
     /*#023c5b*/
@@ -22,8 +25,14 @@ export default {
         >
           <div>
             <h1 class="text-white font-bold text-4xl font-sans">Mail pro</h1>
+            <p class="text-white mt-3">
+              Mailpro is the solution to all your email marketing needs
+            </p>
             <p class="text-white mt-1">
-              Time management at the service of companies
+              with unlimited features that keep you ahead of the competition.
+            </p>
+            <p class="text-white mt-1">
+              Mailpro will make your life easier as a business owner.
             </p>
             <button
               type="submit"
