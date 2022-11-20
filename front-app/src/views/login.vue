@@ -3,11 +3,19 @@ export default {
   name: "loginView",
 };
 </script>
+<style>
+  .colors {
+    background-color: #023c5b;
+  }
+  .read {
+    color: #023c5b;
+  }
+</style>
 <template>
   <section>
     <div class="h-screen flex">
       <div
-        class="hidden sm:flex w-1/2 bg-gradient-to-tr from-blue-800 to-purple-700 i justify-around items-center"
+        class="hidden sm:flex w-1/2 bg-gradient-to-tr from-[#01283d] to-[#023c5b] i justify-around items-center"
       >
         <div>
           <h1 class="text-white font-bold text-4xl font-sans">Mail pro</h1>
@@ -16,7 +24,7 @@ export default {
           </p>
           <button
             type="submit"
-            class="block w-28 bg-white text-indigo-800 mt-4 py-2 rounded-2xl font-bold mb-2"
+            class="block w-28 bg-white text-[#023c5b] mt-4 py-2 rounded-2xl font-bold mb-2 color: #023c5b"
           >
             Read More
           </button>
@@ -31,12 +39,12 @@ export default {
           <p class="font-bold">Sign in</p>
 
           <input
-            class="p-3 border-[1px] border-slate-500 rounded-3xl w-72"
+            class="p-3 border-[1px] border-[#023c5b] rounded-3xl w-72 hover:border-[#023c5b] border-[#012132]"
             placeholder="E-mail"
           />
           <div class="flex flex-col space-y-1">
             <input
-              class="p-3 border-[1px] border-slate-500 rounded-3xl w-72"
+              class="p-3 border-[1px] border-[#023c5b] rounded-3xl w-72 hover:border-[#023c5b]"
               placeholder="Password"
             />
             <a href="http://forgot" class="px-24 w-full">
@@ -50,7 +58,7 @@ export default {
           <div class="flex flex-col space-y-6 w-full">
             <button
               type="submit"
-              class="flex items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-blue-500 hover:bg-blue-600 rounded-2xl py-2 w-full transition duration-150 ease-in"
+              class="colors flex items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-[#023c5b] hover:bg-[#012132] rounded-2xl py-2 w-full transition duration-150 ease-in"
             >
               <span class="mr-2 uppercase">Login</span>
               <span>
@@ -72,12 +80,12 @@ export default {
             <div
               class="flex items-center justify-center border-t-[1px] border-t-slate-300 w-full relative"
             >
-              <div class="font-bod bg-white px-4 absolute">Ou</div>
+              <div class="font-bod bg-white px-4 absolute">Or</div>
             </div>
             <button
-              class="w-full border-blue-900 hover:border-[#003087] hover:border-[2px] border-[1px] rounded-2xl py-2 text-gradient-to-tr from-blue-800 to-purple-700 font-bold transition duration-200"
+              class="w-full border-blue-900 hover:border-[#023c5b] hover:border-[2px] border-[1px] rounded-2xl py-2 text-gradient-to-tr from-blue-800 to-purple-700 font-bold transition duration-200"
             >
-              S'inscrire
+              Register
             </button>
           </div>
           <div class="flex space-x-1 p-10 text-sm">

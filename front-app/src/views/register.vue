@@ -1,23 +1,33 @@
-<script>
+<script lang="ts">
 export default {
   name: "registerView",
 };
 </script>
+<style>
+  .colors {
+    background-color: #023c5b;
+    /*#023c5b*/
+    /*#01283d*/
+  }
+  .read {
+    color: #023c5b;
+  }
+</style>
 <template>
   <section>
     <section>
       <div class="h-screen flex">
         <div
-          class="hidden sm:flex w-1/2 bg-gradient-to-tr from-blue-800 to-purple-700 i justify-around items-center"
+          class="hidden sm:flex w-1/2 bg-gradient-to-tr from-[#01283d] to-[#023c5b] i justify-around items-center"
         >
           <div>
             <h1 class="text-white font-bold text-4xl font-sans">Mail pro</h1>
             <p class="text-white mt-1">
-              La gestion du temps au service des entreprises
+              Time management at the service of companies
             </p>
             <button
               type="submit"
-              class="block w-28 bg-white text-indigo-800 mt-4 py-2 rounded-2xl font-bold mb-2"
+              class="block w-28 bg-white text-[#023c5b] mt-4 py-2 rounded-2xl font-bold mb-2"
             >
               Read More
             </button>
@@ -32,7 +42,7 @@ export default {
             <div
               class="font-medium self-center text-xl sm:text-3xl text-gray-800"
             >
-              S'inscrire
+              Registration
             </div>
 
             <div class="mt-10">
@@ -49,8 +59,8 @@ export default {
                       id="email"
                       type="text"
                       name="name"
-                      class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"
-                      placeholder="Nom"
+                      class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-[#01283d]"
+                      placeholder="Name"
                     />
                   </div>
                 </div>
@@ -66,7 +76,7 @@ export default {
                       id="email"
                       type="email"
                       name="email"
-                      class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"
+                      class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-[#01283d]"
                       placeholder="E-mail"
                     />
                   </div>
@@ -85,8 +95,8 @@ export default {
                       id="password"
                       type="password"
                       name="password"
-                      class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"
-                      placeholder="Mot de passe "
+                      class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-[#01283d]"
+                      placeholder="Password"
                     />
                   </div>
                 </div>
@@ -104,8 +114,8 @@ export default {
                       id="password"
                       type="password"
                       name="password"
-                      class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"
-                      placeholder=" Confirmer mot de passe "
+                      class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-[#01283d]"
+                      placeholder=" Confirm password "
                     />
                   </div>
                 </div>
@@ -113,9 +123,9 @@ export default {
                 <div class="flex w-full">
                   <button
                     type="submit"
-                    class="flex mt-2 items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-blue-500 hover:bg-blue-600 rounded-2xl py-2 w-full transition duration-150 ease-in"
+                    class="flex mt-2 items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-[#023c5b] hover:bg-[#01283d] rounded-2xl py-2 w-full transition duration-150 ease-in"
                   >
-                    <span class="mr-2 uppercase">S'inscrire</span>
+                    <span class="mr-2 uppercase">Register</span>
                     <span>
                       <svg
                         class="h-6 w-6"
@@ -143,11 +153,11 @@ export default {
               class="inline-flex items-center text-gray-700 font-medium text-xs text-center"
             >
               <span class="ml-2"
-                >Vous avez un compte ?
+                >Already have an account ?
                 <a
                   href="/login"
                   class="text-xs ml-2 text-blue-500 font-semibold"
-                  >Se connecter</a
+                  >Log in</a
                 ></span
               >
             </a>
