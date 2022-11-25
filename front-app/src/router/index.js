@@ -4,11 +4,18 @@ import noAuth from "../layout/noAuth.vue";
 import register from "../views/register.vue";
 import login from "../views/login.vue";
 import info from "../views/info.vue";
+import plan from "../views/plan.vue"
 const routes = [
   {
     path: "/register",
     name: "Register",
     component: register,
+    meta: { layout: noAuth, public: true },
+  },
+  {
+    path: "/offers",
+    name: "offers",
+    component: plan,
     meta: { layout: noAuth, public: true },
   },
   {
