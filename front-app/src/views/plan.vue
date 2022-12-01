@@ -314,31 +314,37 @@ export default {
 
         <div class="mt-6 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:mt-12 xl:gap-12">
         <div class="w-full space-y-8 rounded-lg border border-gray-100 p-8 text-center dark:border-gray-700">
-            <p class="font-medium uppercase text-gray-500 dark:text-gray-300">Free</p>
+            <p class="font-medium uppercase text-gray-500 dark:text-gray-300">Starter</p>
 
-            <h2 class="text-5xl font-bold uppercase text-gray-800 dark:text-gray-100">$0</h2>
+            <h2 class="text-5xl font-bold uppercase text-gray-800 dark:text-gray-100">$2.99</h2>
 
-            <p class="font-medium text-gray-500 dark:text-gray-300">Life time</p>
+            <p class="font-medium text-gray-700 dark:text-gray-700">Per month</p>
+
+            <p class="font-medium text-gray-500 dark:text-gray-300">2 Email Account<br>5 GB Space<br>1 Domain Name</p>
 
             <button class="mt-10 w-full transform rounded-md bg-blue-600 px-4 py-2 capitalize tracking-wide text-white transition-colors duration-300 hover:bg-blue-500 focus:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">Start Now</button>
         </div>
 
         <div class="w-full space-y-8 rounded-lg bg-blue-600 p-8 text-center">
-            <p class="font-medium uppercase text-gray-200">Premium</p>
+            <p class="font-medium uppercase text-gray-200">Pro</p>
 
-            <h2 class="text-5xl font-bold uppercase text-white dark:text-gray-100">$40</h2>
+            <h2 class="text-5xl font-bold uppercase text-white dark:text-gray-100">$4.99</h2>
 
-            <p class="font-medium text-gray-200">Per month</p>
+            <p class="font-medium text-gray-700">Per month</p>
+
+            <p class="font-medium text-gray-200">6 Email Account<br>75 GB Space<br>1 Domain Name</p>
 
             <button class="mt-10 w-full transform rounded-md bg-white px-4 py-2 capitalize tracking-wide text-blue-500 transition-colors duration-300 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring focus:ring-gray-200 focus:ring-opacity-80">Start Now</button>
         </div>
 
         <div class="w-full space-y-8 rounded-lg border border-gray-100 p-8 text-center dark:border-gray-700">
-            <p class="font-medium uppercase text-gray-500 dark:text-gray-300">Enterprise</p>
+            <p class="font-medium uppercase text-gray-500 dark:text-gray-300">Ultimate</p>
 
-            <h2 class="text-5xl font-bold uppercase text-gray-800 dark:text-gray-100">$100</h2>
+            <h2 class="text-5xl font-bold uppercase text-gray-800 dark:text-gray-100">$7.99</h2>
 
-            <p class="font-medium text-gray-500 dark:text-gray-300">Life time</p>
+            <p class="font-medium text-gray-700 dark:text-gray-700">Per month</p>
+
+            <p class="font-medium text-gray-500 dark:text-gray-300">15 Email Account<br>100 GB Space<br>1 Domain Name</p>
 
             <button class="mt-10 w-full transform rounded-md bg-blue-600 px-4 py-2 capitalize tracking-wide text-white transition-colors duration-300 hover:bg-blue-500 focus:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">Start Now</button>
         </div>
@@ -441,7 +447,7 @@ export default {
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
 
-                <span class="mx-2 w-72 truncate text-white">(257) 563-7401</span>
+                <span class="mx-2 w-72 truncate text-white">(+44) 738 906 1702</span>
             </p>
 
             <p class="-mx-2 flex items-start">
@@ -463,7 +469,7 @@ export default {
                 </svg>
                 </a>
 
-                <a class="mx-1.5 transform text-white transition-colors duration-300 hover:text-blue-500" href="#">
+                <a class="mx-1.5 transform text-white transition-colors duration-300 hover:text-blue-500" href="https://www.linkedin.com/company/biristechnologie/">
                 <svg class="h-8 w-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M15.2 8.80005C16.4731 8.80005 17.694 9.30576 18.5941 10.2059C19.4943 11.1061 20 12.327 20 13.6V19.2H16.8V13.6C16.8 13.1757 16.6315 12.7687 16.3314 12.4687C16.0313 12.1686 15.6244 12 15.2 12C14.7757 12 14.3687 12.1686 14.0687 12.4687C13.7686 12.7687 13.6 13.1757 13.6 13.6V19.2H10.4V13.6C10.4 12.327 10.9057 11.1061 11.8059 10.2059C12.7061 9.30576 13.927 8.80005 15.2 8.80005Z" fill="currentColor" />
                     <path d="M7.2 9.6001H4V19.2001H7.2V9.6001Z" fill="currentColor" />
